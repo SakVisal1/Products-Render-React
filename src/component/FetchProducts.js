@@ -23,7 +23,7 @@ import { ProductCard } from "./Card"
             return(
                 <>
                 <div className="container mt-3">
-                    <h1 style={{textAlign:'center' , marginBottom: '10px'}}> Product Card List</h1>
+                    <h1 style={{textAlign:'center' , marginBottom: '20px'}}> Product Card List</h1>
                     <div className="row g-3">
                     {
                         loading ? <Loading/> : products.map((product) => (
